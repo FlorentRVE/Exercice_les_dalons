@@ -62,16 +62,16 @@ async function displayUsers() {
         "shadow-xl"
       );
 
-      // Sélection de la <section> ou l'on va afficher
+      // Sélection du contenant ou l'on va afficher nos profils
       let contenant = document.getElementById("container");
 
-      // On attache nos balise dans le contenant <article>
+      // On rempli nos profils
       profil.appendChild(image);
       profil.appendChild(name);
       profil.appendChild(gender);
       profil.appendChild(email);
 
-      // Qui lui-même sera rattaché au contenant <a>
+      // Qui lui-même sera rattaché au contenant
       contenant.appendChild(profil);
 
     });
